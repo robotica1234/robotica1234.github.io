@@ -1,0 +1,49 @@
+body{
+    background-color: rgb(126, 179, 12);
+    text-align: justify;
+}
+h1{
+    color: rgb(198, 192, 192);
+    border: 2px solid black;
+    box-shadow: 4px 9px 10px rgb(5, 5, 5);
+    border-radius: 10px;
+    background-color: rgb(88, 19, 161);
+    font-family:georgia;
+    padding: 5px 10px 5px;
+}
+.f{
+    background-color: blue;
+    color:crimson;
+}
+th{
+    color: blue
+}
+td{
+    color: white;
+}
+#header{
+	margin: auto;
+	width: 500px;
+}
+ul, ol{
+	list-style: none;
+}
+.nav li a{
+	border-color: #fff;
+    box-shadow: 5px 5px 30px #eb0c0c,
+    -5px -5px 30px #0c8927;
+	border:solid;
+	border-color: #fff;
+	background-color: #000;
+	color: #fff;
+	text-decoration: none;
+	border-radius: 15px;
+	padding: 10px 30px;
+	display: block;
+}
+.nav > li{
+	float: left;
+}
+.nav li a:hover{
+	background-color: #696666;
+}
